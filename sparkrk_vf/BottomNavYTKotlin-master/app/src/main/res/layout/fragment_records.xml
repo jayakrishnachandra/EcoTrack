@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".ProfileFragment">
+
+    <!-- Month Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="April 2024"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Week 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0080FF"
+            android:text="Week 1:"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electricity: 25 kWh, Water: 2078 litres"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Week 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0080FF"
+            android:text="Week 2:"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electricity: 28 kWh, Water: 2158 litres"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Week 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0080FF"
+            android:text="Week 3:"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electricity: 38 kWh, Water: 1839 litres"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Week 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0080FF"
+            android:text="Week 4:"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electricity: 17 kWh, Water: 1950 litres"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Total Monthly Usage -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Monthly Usage:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#118896"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electricity: 108 kWh, Water: 8025 litres"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

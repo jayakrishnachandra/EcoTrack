@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- RelativeLayout for current water usage -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- CircularProgressIndicator for current water usage -->
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/waterProgressBar"
+                android:layout_width="154dp"
+                android:layout_height="139dp"
+                android:layout_marginBottom="8dp"
+
+                app:indicatorColor="@color/blue_indicator_color"
+                app:indicatorDirectionCircular="clockwise"
+                app:indicatorInset="8dp"
+                app:indicatorSize="180dp"
+                app:trackColor="@color/very_light_blue"
+                app:trackCornerRadius="8dp" />
+
+            <!-- TextView for displaying current water usage value -->
+            <TextView
+                android:id="@+id/currentWaterValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <!-- TextView for current water usage -->
+        <TextView
+            android:id="@+id/currentWaterUsageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="Current Water Usage in litres"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+
+        <!-- RelativeLayout for current electricity usage -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- CircularProgressIndicator for current electricity usage -->
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/electricityProgressBar"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="8dp"
+                app:indicatorColor="@color/red_indicator_color"
+                app:trackColor="@color/very_light_red"
+                app:trackCornerRadius="8dp"
+                app:indicatorSize="180dp"
+                app:indicatorInset="8dp"
+                app:indicatorDirectionCircular="clockwise" />
+
+            <!-- TextView for displaying current electricity usage value -->
+            <TextView
+                android:id="@+id/currentElectricityValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <!-- TextView for current electricity usage -->
+        <TextView
+            android:id="@+id/currentElectricityUsageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Electricity Usage in watts"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+
+        <!-- Add other views as needed -->
+        <TextView
+            android:id="@+id/totalWaterUsageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Total Water Usage: 0 litres"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <!-- Total electricity usage in kilowatts -->
+        <TextView
+            android:id="@+id/totalElectricityUsageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Total Electricity Usage: 0 kilowatts"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</layout>

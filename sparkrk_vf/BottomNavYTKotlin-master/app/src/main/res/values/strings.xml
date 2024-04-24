@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ecoTrack</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="records_title">Records</string>
+    <string name="wallet_title">Wallet</string>
+    <string name="profile_title">Profile</string>
+    <string name="total_electricity_usage">Total Electricity Usage: %1$s kWh</string>
+    <string name="total_water_usage">Total Water Usage: %1$s gallons</string>
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/background_light"
+    tools:context=".WalletFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- User Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: Jaya Krishna Chandra\nEmail: vemanajayakrishnachandra@gmail.com"
+            android:textSize="16sp"
+            android:textColor="@android:color/primary_text_light"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Total Credits (Bold and Large Font) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Credits: 77"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/primary_text_light"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Credit History (6 Months) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <!-- Month: June -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for June -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30th: Added 15 credits, Total 77 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+
+            <!-- Month: May -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="May:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for May -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31st: Added 10 credits, Total 62 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+
+            <!-- Month: April -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="April:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for April -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30th: Added 10 credits, Total 52 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+
+            <!-- Month: March -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="March:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for March -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31st: Added 10 credits, Total 42 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+
+            <!-- Month: February -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="February:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for February -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28th: Added 10 credits, Total 32 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+
+            <!-- Month: January -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="January:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for January -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15th: Added 10 credits, Total 22 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+            <!-- Month: January -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="December:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for January -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15th: Added 10 credits, Total 12 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+            <!-- Month: January -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="January:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Credit Entries for January -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15th: Added 2 credits, Total 2 credits"
+                android:textSize="16sp"
+                android:textColor="@android:color/secondary_text_light"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
